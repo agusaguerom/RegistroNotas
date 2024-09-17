@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <p id="error"></p>
+    <div class="container row containerform">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Nombre" id="nombre" type="text" class="validate">
+              <label for="nombre">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="apellido" type="text" class="validate">
+              <label for="apellido">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Curso" id="curso" type="text" class="validate">
+              <label for="curso">Curso</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+          </div>
+
+          <button class="waves-effect waves-light btn" id="btnsubir">Subir</button>
+        </form>
+    </div>
+
+
+    <div id="alumnos" class="row">
+
+    </div>
+    
+
+        <script src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
